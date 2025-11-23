@@ -26,7 +26,7 @@ public class SimpleNumberTest {
         System.out.println("BeforeSuite");
     }
 
-    @Test
+    @Test(priority = 0)
     public void isPositive(){
         SimpleNumber num1 = new SimpleNumber(5);
         Assert.assertTrue(num1.isPositive());
