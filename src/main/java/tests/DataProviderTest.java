@@ -20,5 +20,6 @@ public class DataProviderTest {
     public void IsPositive(int num, boolean expectRes){
         SimpleNumber number = new SimpleNumber(num);
         Assert.assertEquals(number.isPositive(), expectRes);
+        System.out.println("ТЕСТ DATA_PROVIDER");
     }
 }

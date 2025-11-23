@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd" >
+<suite name = "SmokeSuite">
+    <test name = "MyFirstTest">
+        <packages>
+            <package name = "tests"></package>
+        </packages>
+    </test>
+</suite>
