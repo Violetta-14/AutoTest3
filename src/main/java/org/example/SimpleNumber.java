@@ -11,4 +11,8 @@ public class SimpleNumber {
     public boolean isPositive(){
         return num > 0;
     }
+
+    public boolean isNegative(){
+        return num < 0;
+    }
 }
